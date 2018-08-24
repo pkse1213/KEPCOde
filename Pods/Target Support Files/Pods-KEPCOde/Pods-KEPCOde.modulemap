@@ -1,0 +1,6 @@
+framework module Pods_KEPCOde {
+  umbrella header "Pods-KEPCOde-umbrella.h"
+
+  export *
+  module * { export * }
+}

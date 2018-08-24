@@ -6,5 +6,6 @@ target 'KEPCOde' do
   use_frameworks!
 
   # Pods for KEPCOde
-
+pod 'Firebase/Core'
+pod 'Firebase/Database'
 end
