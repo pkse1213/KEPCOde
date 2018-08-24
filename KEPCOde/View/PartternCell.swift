@@ -9,5 +9,14 @@
 import UIKit
 
 class PartternCell: UICollectionViewCell {
+    @IBOutlet weak var leftView: UIView!
+    @IBOutlet weak var rightView: UIView!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        leftView.layer.cornerRadius = 5.5
+        leftView.layer.masksToBounds = true
+        rightView.layer.cornerRadius = 5.5
+        rightView.layer.masksToBounds = true
+    }
 }
