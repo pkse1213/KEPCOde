@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4346296121309BD5000A03E8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346296021309BD5000A03E8 /* Extension.swift */; };
 		CB564D18212FC70500E54961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB564D17212FC70500E54961 /* AppDelegate.swift */; };
 		CB564D1F212FC71100E54961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB564D1E212FC71100E54961 /* Assets.xcassets */; };
 		CB564D22212FC71100E54961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB564D20212FC71100E54961 /* LaunchScreen.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4346296021309BD5000A03E8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		6A58B182FD777634B6284159 /* Pods-KEPCOde.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEPCOde.release.xcconfig"; path = "Pods/Target Support Files/Pods-KEPCOde/Pods-KEPCOde.release.xcconfig"; sourceTree = "<group>"; };
 		BD4352105C11E29BCEC8FE58 /* Pods_KEPCOde.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KEPCOde.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB564D14212FC70500E54961 /* KEPCOde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KEPCOde.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 				CB564D20212FC71100E54961 /* LaunchScreen.storyboard */,
 				CB564D23212FC71100E54961 /* Info.plist */,
 				CB564D6421308DDB00E54961 /* GoogleService-Info.plist */,
+				4346296021309BD5000A03E8 /* Extension.swift */,
 			);
 			path = KEPCOde;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				CB564D3921301A8000E54961 /* HomeTabVC.swift in Sources */,
 				CB564D5A2130631A00E54961 /* Grid.swift in Sources */,
 				CB564D5D2130631A00E54961 /* Forecast3Days.swift in Sources */,
+				4346296121309BD5000A03E8 /* Extension.swift in Sources */,
 				CB564D592130631A00E54961 /* Temperature.swift in Sources */,
 				CB564D572130631A00E54961 /* Fcst3Hour.swift in Sources */,
 				CB564D2E212FCC4C00E54961 /* LoginSelectVC.swift in Sources */,

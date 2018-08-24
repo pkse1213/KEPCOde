@@ -12,6 +12,12 @@ class ReservationVC: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var kwtextField: UITextField!
     @IBOutlet weak var moneyLabel: UILabel!
+    
+    //지현 shadow
+    @IBOutlet weak var smallBoxView: UIView!
+    @IBOutlet weak var bigBoxView: UIView!
+    
+    
     let ud = UserDefaults.standard
     var amount = 0
     var uid = ""
@@ -25,6 +31,8 @@ class ReservationVC: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         self.kwtextField.delegate = self
 //        kwtextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+        makeShadow(smallBoxView)
+        
     }
     
     func textFieldDidChange(_ textField: UITextField) {
