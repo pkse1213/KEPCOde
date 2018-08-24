@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CB564D18212FC70500E54961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB564D17212FC70500E54961 /* AppDelegate.swift */; };
-		CB564D1A212FC70500E54961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB564D19212FC70500E54961 /* ViewController.swift */; };
-		CB564D1D212FC70500E54961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB564D1B212FC70500E54961 /* Main.storyboard */; };
 		CB564D1F212FC71100E54961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB564D1E212FC71100E54961 /* Assets.xcassets */; };
 		CB564D22212FC71100E54961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB564D20212FC71100E54961 /* LaunchScreen.storyboard */; };
+		CB564D2A212FCBA400E54961 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB564D29212FCBA400E54961 /* Login.storyboard */; };
+		CB564D2E212FCC4C00E54961 /* LoginSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB564D2D212FCC4C00E54961 /* LoginSelectVC.swift */; };
+		CB564D30212FCD2600E54961 /* CustomerLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB564D2F212FCD2600E54961 /* CustomerLoginVC.swift */; };
+		CB564D32212FCD4300E54961 /* ManagerLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB564D31212FCD4300E54961 /* ManagerLoginVC.swift */; };
+		CB564D37212FCF0400E54961 /* CustomerMainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB564D36212FCF0400E54961 /* CustomerMainTab.storyboard */; };
+		CB564D3921301A8000E54961 /* HomeTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB564D3821301A8000E54961 /* HomeTabVC.swift */; };
+		CB564D3B21301C7700E54961 /* MainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB564D3A21301C7700E54961 /* MainTab.storyboard */; };
+		D6F0E0C502A9E6C0866600C6 /* Pods_KEPCOde.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4352105C11E29BCEC8FE58 /* Pods_KEPCOde.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A58B182FD777634B6284159 /* Pods-KEPCOde.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEPCOde.release.xcconfig"; path = "Pods/Target Support Files/Pods-KEPCOde/Pods-KEPCOde.release.xcconfig"; sourceTree = "<group>"; };
+		BD4352105C11E29BCEC8FE58 /* Pods_KEPCOde.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KEPCOde.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB564D14212FC70500E54961 /* KEPCOde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KEPCOde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB564D17212FC70500E54961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB564D19212FC70500E54961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB564D1C212FC70500E54961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB564D1E212FC71100E54961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB564D21212FC71100E54961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB564D23212FC71100E54961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB564D29212FCBA400E54961 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		CB564D2D212FCC4C00E54961 /* LoginSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSelectVC.swift; sourceTree = "<group>"; };
+		CB564D2F212FCD2600E54961 /* CustomerLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLoginVC.swift; sourceTree = "<group>"; };
+		CB564D31212FCD4300E54961 /* ManagerLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerLoginVC.swift; sourceTree = "<group>"; };
+		CB564D36212FCF0400E54961 /* CustomerMainTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomerMainTab.storyboard; sourceTree = "<group>"; };
+		CB564D3821301A8000E54961 /* HomeTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabVC.swift; sourceTree = "<group>"; };
+		CB564D3A21301C7700E54961 /* MainTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTab.storyboard; sourceTree = "<group>"; };
+		EF30BCE76CEB18E36AEE83F9 /* Pods-KEPCOde.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEPCOde.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KEPCOde/Pods-KEPCOde.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F0E0C502A9E6C0866600C6 /* Pods_KEPCOde.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34E4BB0A785508932E95AFCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF30BCE76CEB18E36AEE83F9 /* Pods-KEPCOde.debug.xcconfig */,
+				6A58B182FD777634B6284159 /* Pods-KEPCOde.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51557A029122684FB9937856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4352105C11E29BCEC8FE58 /* Pods_KEPCOde.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB564D0B212FC70500E54961 = {
 			isa = PBXGroup;
 			children = (
 				CB564D16212FC70500E54961 /* KEPCOde */,
 				CB564D15212FC70500E54961 /* Products */,
+				34E4BB0A785508932E95AFCC /* Pods */,
+				51557A029122684FB9937856 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,35 @@
 		CB564D16212FC70500E54961 /* KEPCOde */ = {
 			isa = PBXGroup;
 			children = (
+				CB564D35212FCEB400E54961 /* ViewController */,
+				CB564D34212FCEA100E54961 /* Storyboard */,
 				CB564D17212FC70500E54961 /* AppDelegate.swift */,
-				CB564D19212FC70500E54961 /* ViewController.swift */,
-				CB564D1B212FC70500E54961 /* Main.storyboard */,
 				CB564D1E212FC71100E54961 /* Assets.xcassets */,
 				CB564D20212FC71100E54961 /* LaunchScreen.storyboard */,
 				CB564D23212FC71100E54961 /* Info.plist */,
 			);
 			path = KEPCOde;
+			sourceTree = "<group>";
+		};
+		CB564D34212FCEA100E54961 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CB564D29212FCBA400E54961 /* Login.storyboard */,
+				CB564D36212FCF0400E54961 /* CustomerMainTab.storyboard */,
+				CB564D3A21301C7700E54961 /* MainTab.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CB564D35212FCEB400E54961 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB564D2D212FCC4C00E54961 /* LoginSelectVC.swift */,
+				CB564D31212FCD4300E54961 /* ManagerLoginVC.swift */,
+				CB564D2F212FCD2600E54961 /* CustomerLoginVC.swift */,
+				CB564D3821301A8000E54961 /* HomeTabVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB564D26212FC71100E54961 /* Build configuration list for PBXNativeTarget "KEPCOde" */;
 			buildPhases = (
+				CEEBE41EE9A877C2B92ACABC /* [CP] Check Pods Manifest.lock */,
 				CB564D10212FC70500E54961 /* Sources */,
 				CB564D11212FC70500E54961 /* Frameworks */,
 				CB564D12212FC70500E54961 /* Resources */,
+				11FEFA137027ADDA7598A28F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +179,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB564D2A212FCBA400E54961 /* Login.storyboard in Resources */,
+				CB564D3B21301C7700E54961 /* MainTab.storyboard in Resources */,
 				CB564D22212FC71100E54961 /* LaunchScreen.storyboard in Resources */,
 				CB564D1F212FC71100E54961 /* Assets.xcassets in Resources */,
-				CB564D1D212FC70500E54961 /* Main.storyboard in Resources */,
+				CB564D37212FCF0400E54961 /* CustomerMainTab.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FEFA137027ADDA7598A28F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KEPCOde/Pods-KEPCOde-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KEPCOde/Pods-KEPCOde-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEEBE41EE9A877C2B92ACABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KEPCOde-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB564D10212FC70500E54961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB564D1A212FC70500E54961 /* ViewController.swift in Sources */,
+				CB564D32212FCD4300E54961 /* ManagerLoginVC.swift in Sources */,
+				CB564D30212FCD2600E54961 /* CustomerLoginVC.swift in Sources */,
 				CB564D18212FC70500E54961 /* AppDelegate.swift in Sources */,
+				CB564D3921301A8000E54961 /* HomeTabVC.swift in Sources */,
+				CB564D2E212FCC4C00E54961 /* LoginSelectVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB564D1B212FC70500E54961 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB564D1C212FC70500E54961 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB564D20212FC71100E54961 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +375,7 @@
 		};
 		CB564D27212FC71100E54961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF30BCE76CEB18E36AEE83F9 /* Pods-KEPCOde.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +393,7 @@
 		};
 		CB564D28212FC71100E54961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A58B182FD777634B6284159 /* Pods-KEPCOde.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
