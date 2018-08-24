@@ -9,5 +9,8 @@
 import UIKit
 
 class WeatherCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var cellTimeLabel: UILabel!
     
+    @IBOutlet weak var cellImage: UIImageView!
+    @IBOutlet weak var cellTemperatureLabel: UILabel!
 }

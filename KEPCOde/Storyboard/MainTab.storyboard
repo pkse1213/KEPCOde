@@ -13,7 +13,7 @@
         <!--ReservationVC-->
         <scene sceneID="90v-LN-7Wb">
             <objects>
-                <viewController id="D6q-ut-Zbh" customClass="ReservationVC" customModule="KEPCOde" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReservationVC" id="D6q-ut-Zbh" customClass="ReservationVC" customModule="KEPCOde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l4O-LB-dPh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,14 +60,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="0.2635648544520548" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhG-7h-if2">
-                                <rect key="frame" x="109" y="393" width="156" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="예약하기"/>
-                                <connections>
-                                    <action selector="reserveAction:" destination="D6q-ut-Zbh" eventType="touchUpInside" id="2jy-Va-hQq"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="예약 및 수정 가능 기한 : 당일 0:00 - 23: 59" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYB-wk-Eyv">
                                 <rect key="frame" x="29" y="313" width="234" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -113,6 +105,14 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhG-7h-if2">
+                                <rect key="frame" x="96" y="290" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="예약하기"/>
+                                <connections>
+                                    <action selector="reserveAction:" destination="D6q-ut-Zbh" eventType="touchUpInside" id="2jy-Va-hQq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zTf-E4-30b"/>

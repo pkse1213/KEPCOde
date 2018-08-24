@@ -7,15 +7,17 @@
 //
 
 import UIKit
-
+import Firebase
 class ReservationVC: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var kwtextField: UITextField!
     @IBOutlet weak var moneyLabel: UILabel!
-    
+    let ud = UserDefaults.standard
     var amount = 0
+    var uid = ""
     
     @IBAction func exitAction(_ sender: UIButton) {
+        
         self.dismiss(animated: true, completion: nil)
     }
     
@@ -67,7 +69,14 @@ class ReservationVC: UIViewController, UITextFieldDelegate {
         } else {
             let alert = UIAlertController(title: "알림", message: "\(kwtextField.text!)kw를 예약하시겠습니까?", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "확인", style: .default) { (_) in
-//                self.dismiss(animated: true, completion: nil)
+                
+                let uid = self.ud.value(forKey: "uid") as! String
+                Database.database().reference().child("users").child(uid).setValue([
+                    "user" : uid,
+                    "volume" : self.kwtextField.text!
+                    ])
+                
+                self.dismiss(animated: true, completion: nil)
             }
             
             let cancelAction = UIAlertAction(title: "취소", style: .cancel, handler: nil)
