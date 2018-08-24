@@ -8,4 +8,9 @@ target 'KEPCOde' do
   # Pods for KEPCOde
 pod 'Firebase/Core'
 pod 'Firebase/Database'
+pod ‘Alamofire'
+pod 'SwiftyJSON'
+pod 'Kingfisher'
+pod 'ObjectMapper'
+
 end
