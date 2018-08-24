@@ -9,7 +9,8 @@
 import UIKit
 
 class HomeTabVC: UIViewController {
-
+   
+    @IBOutlet weak var whetherCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

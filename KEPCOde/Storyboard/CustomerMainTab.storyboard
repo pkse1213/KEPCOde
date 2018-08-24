@@ -145,6 +145,9 @@
                         <viewLayoutGuide key="safeArea" id="F77-pQ-eZ1"/>
                     </view>
                     <navigationItem key="navigationItem" id="J76-rb-2ZI"/>
+                    <connections>
+                        <outlet property="whetherCollectionView" destination="Mn2-CF-ffw" id="xmc-CY-aiT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="csw-wZ-pJB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
