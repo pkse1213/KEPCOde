@@ -21,6 +21,8 @@ class HomeTabVC: UIViewController,CLLocationManagerDelegate, UICollectionViewDel
     @IBOutlet weak var kwLabel: UILabel!
     
     @IBOutlet weak var reserveButton: UIButton!
+    @IBOutlet weak var day1Label: UILabel!
+    @IBOutlet weak var day2Label: UILabel!
     
     let locationManager = CLLocationManager()
     var currentLocation : CLLocation? {

@@ -11,6 +11,7 @@ import UIKit
 class PartternCell: UICollectionViewCell {
     @IBOutlet weak var leftView: UIView!
     @IBOutlet weak var rightView: UIView!
+    @IBOutlet weak var dayLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
