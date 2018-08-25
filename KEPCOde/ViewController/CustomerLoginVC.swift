@@ -42,7 +42,7 @@ class CustomerLoginVC: UIViewController,UITextFieldDelegate {
         if let keyboardFrame: NSValue = sender.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue {
             let keyboardRectangle = keyboardFrame.cgRectValue
             let keyboardHeight = keyboardRectangle.height
-            self.view.frame.origin.y = -keyboardHeight
+            self.view.frame.origin.y = -keyboardHeight/2
         }
     }
     

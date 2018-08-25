@@ -8,28 +8,47 @@
 
 import UIKit
 
-class ManagerLoginVC: UIViewController {
+class ManagerLoginVC: UIViewController, UITextFieldDelegate {
 
+    let ud = UserDefaults.standard
+    
+    @IBOutlet weak var uidTxfd: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        setupTextView()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    private func setupTextView() {
+        uidTxfd.delegate = self
+        
+        let tapDidsmiss = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        self.view.addGestureRecognizer(tapDidsmiss)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: .UIKeyboardWillHide, object: nil)
     }
-    */
+    
+    @IBAction func loginAction(_ sender: UIButton) {
+        ud.setValue(uidTxfd.text!, forKey: "uid")
+        let destvc = UIStoryboard(name: "CustomerMainTab", bundle: nil).instantiateViewController(withIdentifier: "MainTabBarC") as! MainTabBarC
+        //destvc.hero.tabBarAnimationType = .zoom
+        self.present(destvc, animated: false, completion: nil)
+    }
+    @objc func dismissKeyboard() {
+        uidTxfd.resignFirstResponder()
+    }
+    
+    
+    @objc func keyboardWillShow(_ sender: Notification) {
+        if let keyboardFrame: NSValue = sender.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue {
+            let keyboardRectangle = keyboardFrame.cgRectValue
+            let keyboardHeight = keyboardRectangle.height
+            self.view.frame.origin.y = -keyboardHeight/2
+        }
+    }
+    
+    @objc func keyboardWillHide(_ sender: Notification) {
+        self.view.frame.origin.y = 0
+        
+    }
 
 }
