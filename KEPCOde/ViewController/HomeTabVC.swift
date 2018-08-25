@@ -19,7 +19,6 @@ class HomeTabVC: UIViewController,CLLocationManagerDelegate, UICollectionViewDel
     
     @IBOutlet weak var emptyLabel: UILabel!
     @IBOutlet weak var kwLabel: UILabel!
-    
     @IBOutlet weak var reserveButton: UIButton!
     @IBOutlet weak var day1Label: UILabel!
     @IBOutlet weak var day2Label: UILabel!
@@ -79,8 +78,7 @@ class HomeTabVC: UIViewController,CLLocationManagerDelegate, UICollectionViewDel
             kwLabel.isHidden = false
             emptyLabel.isHidden = true
             kwLabel.text = amount + "Kw"
-            
-            reserveButton.titleLabel?.text = "수정하기"
+            reserveButton.setImage(UIImage(named: "editBtn"), for: .normal) 
         }
     }
     
